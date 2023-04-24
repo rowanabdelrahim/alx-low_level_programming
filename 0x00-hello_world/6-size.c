@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: A C program that prints the size of various types on the computer
+ * Description: A C program that prints the size of various types on computer
  * Return: Always 0 (Success)
 */
 int main(void)
