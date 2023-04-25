@@ -2,20 +2,19 @@
 
 /**
  * main - Entry point
- * Description: A program that prints numbers.
+ * Description: A program that prints the alphabet in reverse.
  * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	int digit = 0;
+	char ch = 'z';
 
-	while (digit <= 9)
+	while (ch >= 'a')
 	{
-		putchar(digit + '0');
-		digit++;
+		putchar(ch);
+		ch--;
 	}
 	putchar('\n');
-
 	return (0);
 }
