@@ -7,12 +7,21 @@
 */
 int main(void)
 {
-	int a = 0;
+	int digit = 0;
 
-	while (a < 10)
+	while (digit < 10)
 	{
-		putchar("%d, ", a);
-		a = a + 1;
+		putchar(digit + 0);
+		if (digit < 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		else
+		{
+			putchar('$');
+		}
+		digit++;
 	}
 	return (0);
 }
