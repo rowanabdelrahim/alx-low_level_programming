@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry
- * Description: Alphabet
+ * print_alphabet - a function that prints the alphabet.
  * Return: void
 */
 
@@ -12,7 +11,7 @@ void print_alphabet(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar (c);
+		_putchar(c);
 	}
 
 	_putchar('\n');
