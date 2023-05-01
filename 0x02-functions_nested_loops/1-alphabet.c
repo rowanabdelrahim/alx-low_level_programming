@@ -8,12 +8,11 @@
 
 int main(void)
 {
-	int a = 0 + 97;
+	char c;
 
-	while (a <= 120)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar (a);
-		a++;
+		_putchar (c);
 	}
 
 	_putchar('\n');
