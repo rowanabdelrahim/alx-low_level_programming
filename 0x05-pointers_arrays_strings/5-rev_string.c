@@ -3,25 +3,24 @@
 /**
  * rev_string - a function that reverses a string.
  * @s: string
- * Return: void
+ * Return: string in reverse
 */
 
 
 void rev_string(char *s)
 {
 	char rev = s[0];
-	int i = 0;
-	int a;
+	int counter = 0;
+	int i;
 
-	while (s[i] != '\0')
-		i++;
+	while (s[counter] != '\0')
+		counter++;
 
-	for (a = 0; a < i; a++)
+	for (i = 0; i < counter; i++)
 	{
-		i--;
-		rev = s[a];
-		s[a] = s[i];
-		s[i] = rev;
+		counter--;
+		rev = s[i];
+		s[i] = s[counter];
+		s[counter] = rev;
 	}
-	_putchar('\n');
 }
