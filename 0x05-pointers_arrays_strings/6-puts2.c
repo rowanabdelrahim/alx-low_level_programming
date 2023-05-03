@@ -19,7 +19,7 @@ void puts2(char *str)
 		i++;
 	}
 	t = i - 1;
-	for (a = 0; a <= t; a++;)
+	for (a = 0; a <= t; a++)
 	{
 		if (a % 2 == 0)
 		{
