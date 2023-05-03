@@ -10,13 +10,17 @@
 void rev_string(char *s)
 {
 	int i = 0;
+	int a;
 
-	while (s[i])
+	while (s[i] != '\0')
 		i++;
 
-	while (i--)
+	for (a = 0; a < i; a++)
 	{
-		_putchar(s[i]);
+		i--;
+		rev = s[a];
+		s[a] = s[i];
+		s[i] = rev;
 	}
 	_putchar('\n');
 }
