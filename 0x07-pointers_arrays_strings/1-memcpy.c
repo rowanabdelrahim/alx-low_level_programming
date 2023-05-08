@@ -6,19 +6,17 @@
  * @dest: stored memory
  * @n: number of bytes
  *
- * Return: copied memory wih n byted changed
+ * Return: the pointer to dest
 */
 
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int j = 0;
-	int i = n;
+	unsigned int j;
 
 	for (j = 0; j < n; j++)
 	{
 		dest[j] = src[j];
-		n--;
 	}
 
 	return (dest);
