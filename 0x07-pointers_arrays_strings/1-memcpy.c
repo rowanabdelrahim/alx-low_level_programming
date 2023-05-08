@@ -6,7 +6,7 @@
  * @dest: stored memory
  * @n: number of bytes
  *
- * Return: copied memory
+ * Return: copied memory wih n byted changed
 */
 
 
