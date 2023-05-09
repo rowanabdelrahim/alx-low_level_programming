@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _memcpy - a function that copies memory area
- * @src: copied memory
- * @dest: stored memory
- * @n: number of bytes
+ * _memcpy - Entry point
+ * @dest: input
+ * @src: input
+ * @n: input
  *
- * Return: the pointer to dest
+ * Return: Always 0 (Success)
 */
 
 
